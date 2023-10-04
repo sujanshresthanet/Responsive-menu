@@ -1,14 +1,178 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Responsive menu</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive menu</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-
-
-<script type="text/javascript" src="script.js"></script>
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <section class="navbar-left">
+                <a href="#" class="brand">Brand Name</a>
+                <div class="burger" id="burger">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </div>
+            </section>
+            <section class="navbar-center">
+                <span class="overlay"></span>
+                <div class="menu" id="menu">
+                    <div class="menu-header">
+                        <span class="menu-arrow"><i class="bx bx-chevron-left"></i></span>
+                        <span class="menu-title"></span>
+                    </div>
+                    <ul class="menu-inner">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Home</a>
+                        </li>
+                        <li class="menu-item menu-dropdown">
+                            <span class="menu-link">Collection<i class="bx bx-chevron-right"></i></span>
+                            <div class="submenu megamenu megamenu-column-4">
+                                <div class="submenu-inner">
+                                    <h4 class="submenu-title">Men</h4>
+                                    <ul class="submenu-list">
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                    </ul>
+                                    <h4 class="submenu-title">Kids</h4>
+                                    <ul class="submenu-list">
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="#">Product name</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-inner">
+                                    <h4 class="submenu-title">Women</h4>
+                                    <ul class="submenu-list">
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                    </ul>
+                                    <h4 class="submenu-title">Beauty</h4>
+                                    <ul class="submenu-list">
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-inner">
+                                	<h4 class="submenu-title">Sports</h4>
+                                    <ul class="submenu-list">
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                        <li class="submenu-item">
+                                            <a class="submenu-link" href="">Product name</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-inner">
+                                	<img src="https://i.ibb.co/3Bj3gbS/Product-1.jpg" class="submenu-image" alt="Product">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-item menu-dropdown">
+                            <span class="menu-link">New Arrival<i class="bx bx-chevron-right"></i></span>
+                            <div class="submenu megamenu megamenu-column-4">
+                                <div class="submenu-inner">
+                                    <a href="#" class="submenu-link">
+                                        <img src="https://i.ibb.co/kgNX8ks/Product-2.jpg" class="submenu-image" alt="Product">
+                                        <span class="submenu-title">Product Name</span>
+                                    </a>
+                                </div>
+                                <div class="submenu-inner">
+                                    <a href="#" class="submenu-link">
+                                        <img src="https://i.ibb.co/ZTD2wF6/Product-3.jpg" class="submenu-image" alt="Product">
+                                        <span class="submenu-title">Product Name</span>
+                                    </a>
+                                </div>
+                                <div class="submenu-inner">
+                                    <a href="#" class="submenu-link">
+                                        <img src="https://i.ibb.co/prb0Vz9/Product-4.jpg" class="submenu-image" alt="Product">
+                                        <span class="submenu-title">Product Name</span>
+                                    </a>
+                                </div>
+                                <div class="submenu-inner">
+                                    <a href="#" class="submenu-link">
+                                        <img src="https://i.ibb.co/zPJm9jy/Product-5.jpg" class="submenu-image" alt="Product">
+                                        <span class="submenu-title">Product Name</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-item menu-dropdown">
+                            <span class="menu-link">Account<i class="bx bx-chevron-right"></i></span>
+                            <div class="submenu megamenu megamenu-column-1">
+                                <ul class="submenu-list">
+                                    <li class="submenu-item"><a href="#" class="submenu-link">Login</a></li>
+                                    <li class="submenu-item"><a href="#" class="submenu-link">Register</a></li>
+                                    <li class="submenu-item"><a href="#" class="submenu-link">Track Order</a></li>
+                                    <li class="submenu-item"><a href="#" class="submenu-link">Help</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item"><a href="#" class="menu-link">Support</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="navbar-right">
+            	 <button class="switch" id="switch">
+                    <span class="switch-light"><i class="bx bx-sun"></i></span>
+                    <span class="switch-dark"><i class="bx bx-moon"></i></span>
+                </button>
+            </section>
+        </nav>
+    </header>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
